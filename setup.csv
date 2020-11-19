@@ -1,5 +1,5 @@
 "https://papermc.io/api/v1/paper/1.16.1/latest/download","paper.jar"
 "https://media.forgecdn.net/files/2861/749/PlugMan.jar","plugins/PlugMan-2.1.7.jar"
-"https://ci.viaversion.com/job/ViaVersion/438/artifact/jar/target/ViaVersion-3.1.0.jar","plugins/ViaVersion-3.1.0.jar"
+"https://github.com/ViaVersion/ViaVersion/releases/download/3.2.0/ViaVersion-3.2.0.jar","plugins/ViaVersion-3.2.0.jar"
 "https://ci.viaversion.com/view/ViaBackwards/job/ViaBackwards/127/artifact/all/target/ViaBackwards-3.1.0.jar","plugins/ViaBackwards-3.1.0.jar"
 "https://media.forgecdn.net/files/3028/434/worldedit-bukkit-7.2.0-beta-03.jar","plugins/WorldEdit-7.2.0-beta3.jar"
