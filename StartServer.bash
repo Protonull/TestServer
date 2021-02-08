@@ -7,7 +7,7 @@ download() {
     if ! [ -f $path ];
     then
         echo Downloading $name
-        curl -o $path $link
+        wget -nv -nc -O $path $link
     else
         echo Skipping $name
     fi
