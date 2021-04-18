@@ -16,6 +16,7 @@ start_server() {
     clear
     download "Paper" "paper.jar" "https://papermc.io/api/v2/projects/paper/versions/1.16.5/builds/597/downloads/paper-1.16.5-597.jar"
     download "PlugMan" "plugins/PlugMan-2.1.7.jar" "https://media.forgecdn.net/files/2861/749/PlugMan.jar"
+    download "ProtocolLib" "plugins/ProtocolLib-4.6.0.jar" "https://github.com/dmulloy2/ProtocolLib/releases/download/4.6.0/ProtocolLib.jar"
     download "ViaVersion" "plugins/ViaVersion-3.2.1.jar" "https://github.com/ViaVersion/ViaVersion/releases/download/3.2.1/ViaVersion-3.2.1.jar"
     download "ViaBackwards" "plugins/ViaBackwards-3.2.0.jar" "https://github.com/ViaVersion/ViaBackwards/releases/download/3.2.0/ViaBackwards-3.2.0.jar"
     download "WorldEdit" "plugins/WorldEdit-7.2.4.jar" "https://media.forgecdn.net/files/3237/689/worldedit-bukkit-7.2.4.jar"
