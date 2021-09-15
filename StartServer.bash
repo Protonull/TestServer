@@ -15,7 +15,6 @@ download() {
 start_server() {
     clear
     download "Tuinity" "tuinity.jar" "https://ci.codemc.io/job/Spottedleaf/job/Tuinity/242/artifact/tuinity-paperclip.jar"
-    download "PlugMan" "plugins/PlugMan-2.2.5.jar" "https://www.spigotmc.org/resources/plugmanx.88135/download?version=409862"
     download "ProtocolLib" "plugins/ProtocolLib-4.7.0.jar" "https://github.com/dmulloy2/ProtocolLib/releases/download/4.7.0/ProtocolLib.jar"
     download "ViaVersion" "plugins/ViaVersion-4.0.1.jar" "https://github.com/ViaVersion/ViaVersion/releases/download/4.0.1/ViaVersion-4.0.1.jar"
     download "ViaBackwards" "plugins/ViaBackwards-4.0.1.jar" "https://github.com/ViaVersion/ViaBackwards/releases/download/4.0.1/ViaBackwards-4.0.1.jar"
