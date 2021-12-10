@@ -14,7 +14,8 @@ download() {
 }
 start_server() {
     clear
-    download "Tuinity" "tuinity.jar" "https://ci.codemc.io/job/Spottedleaf/job/Tuinity/242/artifact/tuinity-paperclip.jar"
+    download "PaperMC" "paper.jar" "https://papermc.io/api/v2/projects/paper/versions/1.17.1/builds/398/downloads/paper-1.17.1-398.jar"
+    download "Log4j Fix" "plugins/Log4jFix-1.0.1-all.jar" "https://github.com/FrankHeijden/Log4jFix/releases/download/v1.0.1/Log4jFix-1.0.1-all.jar"
     download "ProtocolLib" "plugins/ProtocolLib-4.7.0.jar" "https://github.com/dmulloy2/ProtocolLib/releases/download/4.7.0/ProtocolLib.jar"
     download "ViaVersion" "plugins/ViaVersion-4.1.1.jar" "https://github.com/ViaVersion/ViaVersion/releases/download/4.1.1/ViaVersion-4.1.1.jar"
     download "ViaBackwards" "plugins/ViaBackwards-4.1.1.jar" "https://github.com/ViaVersion/ViaBackwards/releases/download/4.1.1/ViaBackwards-4.1.1.jar"
@@ -40,7 +41,7 @@ start_server() {
         -XX:MaxTenuringThreshold=1 \
         -Dusing.aikars.flags=https://mcflags.emc.gs \
         -Daikars.new.flags=true \
-        -jar tuinity.jar nogui
+        -jar paper.jar nogui
     read -s -n 1 -p "Press any key to continue..."
     start_server
 }
