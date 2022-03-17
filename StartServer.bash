@@ -14,7 +14,7 @@ download() {
 }
 start_server() {
     clear
-    download "PaperMC" "paper.jar" "https://papermc.io/api/v2/projects/paper/versions/1.16.5/builds/790/downloads/paper-1.16.5-790.jar"
+    download "PaperMC" "paper.jar" "https://papermc.io/api/v2/projects/paper/versions/1.16.5/builds/794/downloads/paper-1.16.5-794.jar"
     download "Log4j Fix" "plugins/Log4jFix-1.0.1-all.jar" "https://github.com/FrankHeijden/Log4jFix/releases/download/v1.0.5/log4jfix-bukkit-1.0.5-all.jar"
     download "ProtocolLib" "plugins/ProtocolLib-4.7.0.jar" "https://github.com/dmulloy2/ProtocolLib/releases/download/4.7.0/ProtocolLib.jar"
     download "ViaVersion" "plugins/ViaVersion-4.1.1.jar" "https://github.com/ViaVersion/ViaVersion/releases/download/4.1.1/ViaVersion-4.1.1.jar"
