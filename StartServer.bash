@@ -19,6 +19,7 @@ start_server() {
     download "ViaVersion" "plugins/ViaVersion-4.2.1.jar" "https://github.com/ViaVersion/ViaVersion/releases/download/4.2.1/ViaVersion-4.2.1.jar"
     download "ViaBackwards" "plugins/ViaBackwards-4.2.0.jar" "https://github.com/ViaVersion/ViaBackwards/releases/download/4.2.0/ViaBackwards-4.2.0.jar"
     download "WorldEdit" "plugins/WorldEdit-7.2.9.jar" "https://media.forgecdn.net/files/3631/603/worldedit-bukkit-7.2.9.jar"
+    # PlugManX -> https://github.com/TheBlackEntity/PlugMan/
     java -Xmx2000M -Xms2000M \
         -XX:+UseG1GC \
         -XX:+ParallelRefProcEnabled \
