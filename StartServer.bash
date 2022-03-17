@@ -16,8 +16,8 @@ start_server() {
     clear
     download "PaperMC" "paper.jar" "https://papermc.io/api/v2/projects/paper/versions/1.16.5/builds/794/downloads/paper-1.16.5-794.jar"
     download "ProtocolLib" "plugins/ProtocolLib-4.8.0.jar" "https://github.com/dmulloy2/ProtocolLib/releases/download/4.8.0/ProtocolLib.jar"
-    download "ViaVersion" "plugins/ViaVersion-4.1.1.jar" "https://github.com/ViaVersion/ViaVersion/releases/download/4.1.1/ViaVersion-4.1.1.jar"
-    download "ViaBackwards" "plugins/ViaBackwards-4.1.1.jar" "https://github.com/ViaVersion/ViaBackwards/releases/download/4.1.1/ViaBackwards-4.1.1.jar"
+    download "ViaVersion" "plugins/ViaVersion-4.2.1.jar" "https://github.com/ViaVersion/ViaVersion/releases/download/4.2.1/ViaVersion-4.2.1.jar"
+    download "ViaBackwards" "plugins/ViaBackwards-4.2.0.jar" "https://github.com/ViaVersion/ViaBackwards/releases/download/4.2.0/ViaBackwards-4.2.0.jar"
     download "WorldEdit" "plugins/WorldEdit-7.2.7.jar" "https://media.forgecdn.net/files/3502/99/worldedit-bukkit-7.2.7.jar"
     java -Xmx2000M -Xms2000M \
         -XX:+UseG1GC \
