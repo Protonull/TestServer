@@ -14,11 +14,14 @@ download() {
 }
 start_server() {
     clear
-    download "PaperMC" "paper.jar" "https://papermc.io/api/v2/projects/paper/versions/1.16.5/builds/794/downloads/paper-1.16.5-794.jar"
+    download "PaperMC" "paper.jar" "https://api.papermc.io/v2/projects/paper/versions/1.16.5/builds/794/downloads/paper-1.16.5-794.jar"
+    # ProtocolLib -> https://github.com/dmulloy2/ProtocolLib/
     download "ProtocolLib" "plugins/ProtocolLib-4.8.0.jar" "https://github.com/dmulloy2/ProtocolLib/releases/download/4.8.0/ProtocolLib.jar"
+    # ViaVersion -> https://github.com/ViaVersion/ViaVersion/
     download "ViaVersion" "plugins/ViaVersion-4.2.1.jar" "https://github.com/ViaVersion/ViaVersion/releases/download/4.2.1/ViaVersion-4.2.1.jar"
-    download "ViaBackwards" "plugins/ViaBackwards-4.2.0.jar" "https://github.com/ViaVersion/ViaBackwards/releases/download/4.2.0/ViaBackwards-4.2.0.jar"
-    # WorldEdit for Bukkit -> https://dev.bukkit.org/projects/worldedit/files
+    # ViaBackwards -> https://github.com/ViaVersion/ViaBackwards/
+    download "ViaBackwards" "plugins/ViaBackwards-4.2.1.jar" "https://ci.viaversion.com/view/ViaBackwards/job/ViaBackwards/lastSuccessfulBuild/artifact/build/libs/ViaBackwards-4.2.1.jar"
+    # WorldEdit for Bukkit -> https://dev.bukkit.org/projects/worldedit/files/
     download "WorldEdit" "plugins/WorldEdit-7.2.10.jar" "https://media.forgecdn.net/files/3697/296/worldedit-bukkit-7.2.10.jar"
     # PlugManX -> https://github.com/TheBlackEntity/PlugMan/
     java -Xmx2000M -Xms2000M \
