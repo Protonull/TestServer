@@ -4,11 +4,11 @@ This is intended to be as quick and painless server as possible.
 
 ## Installation
 
-1. Install Java 11:
+1. Install Java 17:
 
-    * [Oracle](https://www.oracle.com/java/technologies/javase-jdk11-downloads.html) (Recommended, but requires a login)
+    * [Amazon Corretto](https://docs.aws.amazon.com/corretto/latest/corretto-17-ug/downloads-list.html)
 
-	* [OpenJDK](https://adoptopenjdk.net/)
+	* [Adoptium](https://adoptium.net/temurin/releases)
 
 2. Install [git](https://git-scm.com/downloads)
 
