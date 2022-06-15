@@ -14,7 +14,7 @@ download() {
 }
 start_server() {
     clear
-    download "PaperMC" "paper.jar" "https://api.papermc.io/v2/projects/paper/versions/1.18.2/builds/350/downloads/paper-1.18.2-350.jar"
+    download "PaperMC" "paper.jar" "https://api.papermc.io/v2/projects/paper/versions/1.18.2/builds/386/downloads/paper-1.18.2-386.jar"
     # ProtocolLib -> https://github.com/dmulloy2/ProtocolLib/
     download "ProtocolLib" "plugins/ProtocolLib-4.8.0.jar" "https://github.com/dmulloy2/ProtocolLib/releases/download/4.8.0/ProtocolLib.jar"
     # ViaVersion -> https://github.com/ViaVersion/ViaVersion/
