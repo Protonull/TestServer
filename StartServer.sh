@@ -1,15 +1,16 @@
-#!/bin/bash
-cd "$(dirname "$0")" || exit
+#!/bin/sh
+cd "$(realpath "$(dirname "$0")")" || exit
+
 download() {
     name=$1
     path=$2
     link=$3
-    if ! [ -f $path ];
-    then
-        echo Downloading $name
-        wget -nv -nc -O $path $link
+    if ! [ -f "$path" ]; then
+        echo Downloading "$name"
+        curl --proto "=https" --tlsv1.2 --silent --show-error --output "$path" "$link"
+        sleep 2
     else
-        echo Skipping $name
+        echo Skipping "$name"
     fi
 }
 start_server() {
@@ -47,7 +48,8 @@ start_server() {
         -Daikars.new.flags=true \
         -Dlog4j2.formatMsgNoLookups=true \
         -jar paper.jar nogui
-    read -s -n 1 -p "Press any key to continue..."
+    echo "Press any key to continue..."
+    read -r line
     start_server
 }
 start_server
