@@ -7,7 +7,7 @@ download() {
     link=$3
     if ! [ -f "$path" ]; then
         echo Downloading "$name"
-        curl --proto "=https" --tlsv1.2 --silent --show-error --output "$path" "$link"
+        curl --proto "=https" --tlsv1.2 --silent --show-error --output "$path" --location "$link"
         sleep 2
     else
         echo Skipping "$name"
