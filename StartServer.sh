@@ -19,9 +19,9 @@ start_server() {
     # ProtocolLib -> https://github.com/dmulloy2/ProtocolLib/
     download "ProtocolLib" "plugins/ProtocolLib-4.8.0.jar" "https://github.com/dmulloy2/ProtocolLib/releases/download/4.8.0/ProtocolLib.jar"
     # ViaVersion -> https://github.com/ViaVersion/ViaVersion/
-    download "ViaVersion" "plugins/ViaVersion-4.4.2.jar" "https://github.com/ViaVersion/ViaVersion/releases/download/4.4.2/ViaVersion-4.4.2.jar"
+    download "ViaVersion" "plugins/ViaVersion-4.5.1.jar" "https://github.com/ViaVersion/ViaVersion/releases/download/4.5.1/ViaVersion-4.5.1.jar"
     # ViaBackwards -> https://github.com/ViaVersion/ViaBackwards/
-    download "ViaBackwards" "plugins/ViaBackwards-4.4.2.jar" "https://github.com/ViaVersion/ViaBackwards/releases/download/4.4.2/ViaBackwards-4.4.2.jar"
+    download "ViaBackwards" "plugins/ViaBackwards-4.5.1.jar" "https://github.com/ViaVersion/ViaBackwards/releases/download/4.5.1/ViaBackwards-4.5.1.jar"
     # WorldEdit for Bukkit -> https://dev.bukkit.org/projects/worldedit/files/
     download "WorldEdit" "plugins/WorldEdit-7.2.12.jar" "https://mediafiles.forgecdn.net/files/3922/624/worldedit-bukkit-7.2.12.jar"
     # PlugManX -> https://github.com/TheBlackEntity/PlugMan/
