@@ -23,7 +23,7 @@ start_server() {
     # ViaBackwards -> https://github.com/ViaVersion/ViaBackwards/
     download "ViaBackwards" "plugins/ViaBackwards-4.9.1.jar" "https://github.com/ViaVersion/ViaBackwards/releases/download/4.9.1/ViaBackwards-4.9.1.jar"
     # WorldEdit for Bukkit -> https://dev.bukkit.org/projects/worldedit/files/
-    download "WorldEdit" "plugins/WorldEdit-7.2.17.jar" "https://mediafilez.forgecdn.net/files/4793/142/worldedit-bukkit-7.2.17.jar"
+    download "WorldEdit" "plugins/WorldEdit-7.2.18.jar" "https://mediafilez.forgecdn.net/files/4954/406/worldedit-bukkit-7.2.18-dist.jar"
     # PlugManX -> https://github.com/TheBlackEntity/PlugMan/
     java -Xmx2000M -Xms2000M \
         -XX:+UseG1GC \
