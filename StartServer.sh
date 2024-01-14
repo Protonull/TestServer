@@ -25,7 +25,7 @@ start_server() {
     # WorldEdit for Bukkit -> https://dev.bukkit.org/projects/worldedit/files/
     download "WorldEdit" "plugins/WorldEdit-7.2.18.jar" "https://mediafilez.forgecdn.net/files/4954/406/worldedit-bukkit-7.2.18-dist.jar"
     # PlugManX -> https://github.com/TheBlackEntity/PlugMan/
-    download "PlugManX" "plugins/PlugManX-2.3.6.jar" "https://github.com/TheBlackEntity/PlugManX/releases/download/2.3.6/PlugManX.jar"
+    download "PlugManX" "plugins/PlugManX-2.3.7.jar" "https://github.com/TheBlackEntity/PlugManX/releases/download/2.3.7/PlugManX.jar"
     java -Xmx2000M -Xms2000M \
         -XX:+UseG1GC \
         -XX:+ParallelRefProcEnabled \
