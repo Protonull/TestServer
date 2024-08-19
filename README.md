@@ -4,9 +4,9 @@ This is intended to be as quick and painless a server as possible.
 
 ## Installation
 
-1. Install Java 17:
+1. Install Java 21:
 
-    * [Amazon Corretto](https://docs.aws.amazon.com/corretto/latest/corretto-17-ug/downloads-list.html)
+    * [Amazon Corretto](https://docs.aws.amazon.com/corretto/latest/corretto-21-ug/downloads-list.html)
 
 	* [Adoptium](https://adoptium.net/temurin/releases)
 
