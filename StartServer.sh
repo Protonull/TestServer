@@ -13,9 +13,16 @@ download() {
         echo Skipping "$name"
     fi
 }
+
+latestPaper() {
+    paperVersion=$1
+    paperBuild=$(curl --proto "=https" --tlsv1.2 --silent --show-error --location "https://api.papermc.io/v2/projects/paper/versions/$paperVersion/" | jq '.["builds"][-1]')
+    echo "https://api.papermc.io/v2/projects/paper/versions/$paperVersion/builds/$paperBuild/downloads/paper-$paperVersion-$paperBuild.jar"
+}
+
 start_server() {
     clear
-    download "PaperMC" "paper.jar" "https://api.papermc.io/v2/projects/paper/versions/1.20.6/builds/148/downloads/paper-1.20.6-148.jar"
+    download "PaperMC" "paper.jar" "$(latestPaper "1.21.1")"
     # ProtocolLib -> https://github.com/dmulloy2/ProtocolLib/
     download "ProtocolLib" "plugins/ProtocolLib-5.2.0.jar" "https://github.com/dmulloy2/ProtocolLib/releases/download/5.2.0/ProtocolLib.jar"
     # ViaVersion -> https://github.com/ViaVersion/ViaVersion/

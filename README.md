@@ -10,6 +10,8 @@ This is intended to be as quick and painless a server as possible.
 
 	* [Adoptium](https://adoptium.net/temurin/releases)
 
+2. Install [jq](https://jqlang.github.io/jq/download/)
+
 ## Usage
 
 Run `./StartServer.sh` in a Dash/Shell environment. For Windows this can be achieved with [Git Bash](https://gitforwindows.org/), [Cygwin](https://cygwin.com/install.html), [WSL](https://docs.microsoft.com/en-us/windows/wsl/install-win10), etc.
