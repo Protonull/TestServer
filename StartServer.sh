@@ -24,8 +24,7 @@ start_server() {
     clear
     download "PaperMC" "paper.jar" "$(latestPaper "1.21.1")"
     # ProtocolLib -> https://github.com/dmulloy2/ProtocolLib/
-    # TODO: Change this back to a Github release once it formally releases (it's currently a latest-build thing)
-    download "ProtocolLib" "plugins/ProtocolLib-5.3.0-SNAPSHOT.jar" "https://ci.dmulloy2.net/job/ProtocolLib/lastSuccessfulBuild/artifact/build/libs/ProtocolLib.jar"
+    download "ProtocolLib" "plugins/ProtocolLib-5.3.0.jar" "https://github.com/dmulloy2/ProtocolLib/releases/download/5.3.0/ProtocolLib.jar"
     # ViaVersion -> https://github.com/ViaVersion/ViaVersion/
     download "ViaVersion" "plugins/ViaVersion-5.0.3.jar" "https://github.com/ViaVersion/ViaVersion/releases/download/5.0.3/ViaVersion-5.0.3.jar"
     # ViaBackwards -> https://github.com/ViaVersion/ViaBackwards/
