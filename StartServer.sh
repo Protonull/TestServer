@@ -14,7 +14,7 @@ download() {
     fi
 }
 
-# Example usage: download "PaperMC" "paper.jar" "$(latestPaper "1.21.3")"
+# Example usage: download "PaperMC" "paper.jar" "$(latestPaper "1.21.4")"
 latestPaper() {
     paperVersion=$1
     paperBuild=$(curl --proto "=https" --tlsv1.2 --silent --show-error --location "https://api.papermc.io/v2/projects/paper/versions/$paperVersion/" | jq '.["builds"][-1]')
@@ -23,7 +23,7 @@ latestPaper() {
 
 start_server() {
     clear
-    download "PaperMC" "paper.jar" "$(latestPaper "1.21.3")"
+    download "PaperMC" "paper.jar" "$(latestPaper "1.21.4")"
     # ProtocolLib -> https://github.com/dmulloy2/ProtocolLib/
     download "ProtocolLib" "plugins/ProtocolLib-5.3.0.jar" "https://github.com/dmulloy2/ProtocolLib/releases/download/5.3.0/ProtocolLib.jar"
     # ViaVersion -> https://github.com/ViaVersion/ViaVersion/
