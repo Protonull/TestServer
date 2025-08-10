@@ -31,7 +31,7 @@ start_server() {
     # ViaBackwards -> https://github.com/ViaVersion/ViaBackwards/
     download "ViaBackwards" "plugins/ViaBackwards-5.4.2.jar" "https://github.com/ViaVersion/ViaBackwards/releases/download/5.4.2/ViaBackwards-5.4.2.jar"
     # WorldEdit for Bukkit -> https://dev.bukkit.org/projects/worldedit/files/
-    download "WorldEdit" "plugins/WorldEdit-7.3.13.jar" "https://mediafilez.forgecdn.net/files/6560/957/worldedit-bukkit-7.3.13.jar"
+    download "WorldEdit" "plugins/WorldEdit-7.3.16.jar" "https://mediafilez.forgecdn.net/files/6786/280/worldedit-bukkit-7.3.16.jar"
     java -Xmx2000M -Xms2000M \
         -XX:+UseG1GC \
         -XX:+ParallelRefProcEnabled \
